@@ -1,0 +1,115 @@
+.main-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    border: 2px solid white;
+    left: 40px;
+    width: 70px;
+    height: 40px;
+}
+
+.main-wrapper .header {
+    position: fixed;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.main-wrapper .logo {
+    box-sizing: border-box;
+}
+
+.main-wrapper .header__tools {
+    display: flex;
+    align-items: center;
+    padding: 16px 30px;    
+}
+
+.main-wrapper .phone-number {
+    margin-right: 72px;
+}
+
+.main-wrapper .reservation-button {
+    padding: 16px 30px;
+    border: 1px solid white;
+    color: white;
+}
+
+.hero-banner {
+    background-image: url(img\bg.png);
+    height: 100vh;
+    background-size: 1920px 1080px;
+}
+
+.hero-banner .hero-banner__content {
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner .hero-banner__content button {
+    color: white;
+    font-size: 26px;
+    border: solid;
+    padding: 4px 10px;
+}
+
+.hero-banner h1{
+    color: white;
+    font-size:68px;
+}
+
+.hero-banner .author {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.word {
+    left: -0.06%;
+    right: 0%;
+    top: 2.78%;
+    bottom: 2.78%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #B0B0B0;
+}
+
+.word2 {
+    left: -0.06%;
+    right: 0%;
+    top: 2.78%;
+    bottom: 2.78%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.icon {
+    left: 98.92%;
+    right: -97.84%;
+    top: 0%;
+    bottom: 1.08%;
+    background: #000000;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
